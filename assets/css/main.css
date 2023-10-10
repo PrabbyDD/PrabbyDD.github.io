@@ -2639,10 +2639,14 @@ input, select, textarea {
 			line-height: 1.75em;
 			margin: 0;
 		}
-
+		
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			width: 7.25em;
+			height: 7.25em; /* Set the height equal to the width to create a circle */
+			border-radius: 50%; /* Create a circular shape */
+			overflow: hidden; /* Hide the image overflow outside the circle */
+			display: block; /* Remove extra spacing around the image */
 		}
 
 /* Footer */
